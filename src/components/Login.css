@@ -1,0 +1,25 @@
+.login-container__title{
+    text-align: center;
+    font-weight: 1500;
+}
+
+.login-container__form{
+    margin-top: 70px;
+    text-align: center;
+    line-height: 0;
+}
+
+.login-container__form input{
+    height: 35px;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+input:focus{
+    outline: none;
+    background-color: rgb(240, 234, 234);
+}
+    
