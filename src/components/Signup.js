@@ -10,6 +10,8 @@ const SignUp = () =>{
                 <Auth>
                     <h4>User Name</h4>
                     <input type="Text"></input>
+                    <h4>Email</h4>
+                    <input type="Text"></input>
                     <h4>Password</h4>
                     <input type="password"></input>
                 </Auth>
