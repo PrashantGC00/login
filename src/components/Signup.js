@@ -1,9 +1,21 @@
 import React from "react";
 
-import './Login.css'
+import AuthContainer from "../pages/AuthContainer";
+import Auth from "./Auth";
 
-const Signup = () =>{
-    return <h1>HI</h1>
+const SignUp = () =>{
+    return (
+        <React.Fragment>
+            <AuthContainer title="Sign Up">
+                <Auth>
+                    <h4>User Name</h4>
+                    <input type="Text"></input>
+                    <h4>Password</h4>
+                    <input type="password"></input>
+                </Auth>
+            </AuthContainer>
+        </React.Fragment>
+    )
 }
 
-export default Signup
+export default SignUp

@@ -1,20 +1,25 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 
-import Login from "../components/Login";
+import './AuthContainer.css'
 
-const Auth = () =>{
+import Title from "../components/Title";
+import Login from "../components/Login"
+import SignUp from "../components/Signup";
+
+const AuthContainer = props =>{
     return (
         <div className='login-container__main'>
         <div className='login-container'>
-          <Login />
+          <Title title={props.title} style='center' />
+            {props.children}
           <div className='container__options'>
             <button>
               <Link to='/'>Login</Link>
             </button>
             <button>
                 <Link to='/signup'>
-                    signup
+                    Sign Up
                 </Link>
             </button>
           </div>
@@ -23,4 +28,4 @@ const Auth = () =>{
     )
 }
 
-export default Auth
+export default AuthContainer

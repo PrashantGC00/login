@@ -3,18 +3,19 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 
 import './App.css';
 
-import Auth from './pages/Auth';
-import Signup from './components/Signup';
+import AuthContainer from './pages/AuthContainer';
+import Login from './components/Login';
+import SignUp from './components/Signup';
 
 function App() {
   return (
    <Router>
     <Switch>
       <Route path ='/' exact>
-        <Auth />
+        <Login />
       </Route>
-      <Route path ='/signup' exact>    
-        <Signup />
+      <Route path ='/signup' exact>
+        <SignUp />    
       </Route>
       <Redirect to='/' />
     </Switch>

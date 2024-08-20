@@ -1,0 +1,19 @@
+.container__options{
+    justify-content: center;
+    text-align: center;
+}
+
+.container__options button{
+    margin: 20px;
+    height: 35px;
+    justify-content: center;
+    text-align: center;
+    width: 130px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.container__options button a{
+    text-decoration: none;
+    color: black;
+}
