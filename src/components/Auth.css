@@ -21,5 +21,6 @@
 input:focus{
     outline: none;
     background-color: rgb(240, 234, 234);
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
     

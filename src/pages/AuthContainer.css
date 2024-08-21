@@ -13,7 +13,12 @@
     border-radius: 5px;
 }
 
-.container__options button a{
+.container__options button{
     text-decoration: none;
     color: black;
+}
+
+.container__options button:hover{
+    transition: background-color 0.5s ease, color 0.5s ease;
+    background-color: yellow;
 }

@@ -14,14 +14,14 @@ const AuthContainer = props =>{
           <Title title={props.title} style='center' />
             {props.children}
           <div className='container__options'>
-            <button>
-              <Link to='/'>Login</Link>
-            </button>
-            <button>
+              <Link to='/'>
+                <button>Login</button>
+              </Link>
                 <Link to='/signup'>
-                    Sign Up
+                    <button>
+                      Sign Up
+                    </button>
                 </Link>
-            </button>
           </div>
         </div>
       </div>

@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 
 import './App.css';
 
-import AuthContainer from './pages/AuthContainer';
 import Login from './components/Login';
 import SignUp from './components/Signup';
 

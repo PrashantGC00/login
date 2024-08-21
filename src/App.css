@@ -2,17 +2,17 @@
   height: 100vh;
   width: 100%;
   display: flex;
-  background-color: #F2EFE5;
+  background-color: #ffffff;
   justify-content: center;
   align-items: center;
   font-size: 30px;
 }
 
 .login-container{
-  background-color: #B4B4B8;
-  height: 50vh;
-  width: 500px;
+  background-color: #009213;
+  height: 60vh;
+  width: 400px;
   padding: 50px;
-  border: 5px solid #8c8c96;
-  border-radius: 50px;
+  border: 5px solid #01a817;
+  border-radius: 5px;
 }
